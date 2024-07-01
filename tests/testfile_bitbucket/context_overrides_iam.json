@@ -3,7 +3,7 @@
   "pipeline_user_aws_secret_access_key_variable_name": "AWS_SECRET_ACCESS_KEY",
   "main_git_branch": "main",
   "sam_template": "template.yaml",
-  "testing_stack_name": "test-stack",
+  "testing_stack_name": "anish-test-stack",
   "testing_pipeline_execution_role": "test-pipeline-execution-role",
   "testing_cloudformation_execution_role": "test-cfn-execution-role",
   "testing_artifacts_bucket": "test-bucket",

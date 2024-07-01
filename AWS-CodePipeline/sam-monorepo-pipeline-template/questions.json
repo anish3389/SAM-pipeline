@@ -49,7 +49,7 @@
             "key": "testing_stack_name",
             "question": "What is the sam application stack name for stage 1?",
             "isRequired": true,
-            "default": "sam-app"
+            "default": "anish-sam-app"
         },
         {
             "key": "testing_pipeline_execution_role",
@@ -144,7 +144,7 @@
             "key": "prod_stack_name",
             "question": "What is the sam application stack name for stage 2?",
             "isRequired": true,
-            "default": "sam-app-prod"
+            "default": "anish-sam-app-prod"
         },
         {
             "key": "prod_pipeline_execution_role",
@@ -223,7 +223,8 @@
         {
             "key": "pipeline_stack_name",
             "question": "What is the CloudFormation stack name for this pipeline?",
-            "isRequired": true
+            "isRequired": true,
+            "default": "anish-prod-stack"
         },
         {
             "key": "instructions",
